@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-In-Validation</title>
+  </head>
+  <body>
+    <div id="center">
+      <form id="sign_In_form">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <span id="emailError"></span>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <span id="passwordError"></span>
+        <button id="sign_btn" type="submit">Sign In</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+}
+
+#sign_In_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3em;
+}
+
+#field {
+  width: 100%;
+  height: 100%;
+}
+
+#sign_btn {
+  margin-top: 1.5em;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
